@@ -1,19 +1,19 @@
 package adressepostale.destinataire;
 
-import adressepostale.util.MotSimple;
 
 /**
  *
  */
-public enum Fonction
-        implements MotSimple {
+public enum CiviliteEnum
+// TODO implements Mot
+{
     
     NONE(""),
-    SECRETAIRE("secretaire"),
-    PRESIDENT("president"),
-    DIRECTEUR("directeur");
+    MONSIEUR("monsieur"),
+    MADAME("madame"),
+    MADEMOISELLE("mademoiselle");
     
-    Fonction(
+    CiviliteEnum(
             final String mot)
     {
         this.mot = mot;

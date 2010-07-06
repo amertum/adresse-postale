@@ -4,6 +4,6 @@ package adressepostale.destinataire;
 /**
  *
  */
-public interface Civilite {
+public interface Nom {
     
 }

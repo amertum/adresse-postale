@@ -5,7 +5,8 @@ import java.util.List;
 /**
  * @see "http://fr.wikipedia.org/wiki/Adresse_postale"
  */
-public interface Adresse {
+public interface Adresse
+        extends Ligneable {
     
     /**
      * Retourne les lignes de l'adresse.
