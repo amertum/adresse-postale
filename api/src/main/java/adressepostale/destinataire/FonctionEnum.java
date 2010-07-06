@@ -1,20 +1,19 @@
 package adressepostale.destinataire;
 
-import adressepostale.util.MotSimple;
 
 /**
- * @see "http://fr.wikipedia.org/wiki/Titre_de_civilité"
+ *
  */
-public enum Titre
-        implements MotSimple {
+public enum FonctionEnum
+// TODO implements Mot
+{
     
     NONE(""),
-    VEUVE("veuve"),
-    DOCTEUR("docteur"),
-    MAITRE("maitre"),
-    PROFESSEUR("professeur");
+    SECRETAIRE("secretaire"),
+    PRESIDENT("president"),
+    DIRECTEUR("directeur");
     
-    Titre(
+    FonctionEnum(
             final String mot)
     {
         this.mot = mot;
